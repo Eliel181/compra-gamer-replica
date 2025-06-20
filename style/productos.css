@@ -1,6 +1,6 @@
-@import url('/style/footer.css');
-@import url('/style/ayuda.css');
-@import url('/style/index.css');
+@import url('style/footer.css');
+@import url('style/ayuda.css');
+@import url('style/index.css');
 
 section{
     height: auto;
