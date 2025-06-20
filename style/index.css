@@ -1,0 +1,397 @@
+@import url('footer.css');
+
+.slider{
+    padding-top: 4rem;
+}
+
+.desktop{
+    display: none;
+}
+
+/* .mobile{
+    
+    width: 160%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.mobile img{
+    object-position: center;
+    object-fit: cover;
+}
+
+.mobile ul{
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: cambio 20s infinite
+    alternate linear;
+    width: 830%;
+} */
+
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+@media(min-width:1200px){
+
+    .desktop{
+        display: grid;
+        padding-top: 9.8rem;
+        max-width: 100%;
+    }
+
+    .desktop li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .desktop img{
+        width: 75%;
+        border-radius: 50px;
+    }
+    .mobile{
+        display: none;
+    }
+}
+
+
+/* Estilos para las secciones */
+
+.tittle-section{
+    display: flex;
+    padding-top: 2rem;
+}
+.main-title{
+    padding-top: 6rem;
+}
+
+.tittle-section h3{
+    font-weight: 350;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.btn-next-prev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.btn-next-prev i{
+    border: 1.5px solid #f0300a;
+    border-radius: 25%;
+    margin: 5px;
+    font-size: 2rem;
+    color: #f0300a;
+    font-weight: 200;
+    padding: 4px;
+}
+
+.filter{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.filter a{
+    background-color: #f0300a;
+    color: white;
+    border-radius: 30px;
+    padding: 0.7rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.filter::-webkit-scrollbar {
+    display: none;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    align-content: space-between;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.card-product{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    width: 100%;
+    border-radius: 15px;
+    border: 1.5px solid grey;
+}
+
+.card-product:hover{
+    box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.7); 
+    transition: 0.7s;
+}
+
+.card-contet-product{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card-tittle{
+    font-weight: 400;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    height: 88px;
+    font-size: 18px;
+}
+
+.card-img-product{
+    border-radius: 15px;
+    width: 80px;
+    height: 80px;
+    padding: 1rem;
+}
+
+.card-price-product{
+    font-weight: 700;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.build-pc{
+    background-image: url('/img/baner-fondo2.webp');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-blend-mode: darken;
+    color: white;
+    padding: 1.2rem;
+}
+
+.btn-primary{
+    all: unset;
+    background-color: #f0300a;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.build-pc-title{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.build-pc-content{
+    padding: 1.5rem 0;
+}
+
+@media(min-width:1200px){
+    section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .tittle-section h3{
+        padding: 1rem 0;
+    }
+    .build-pc{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        width: 75%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50px;
+
+    }
+
+    .build-pc-content{
+        width: 400px;
+    }
+
+    .build-pc-title{
+        width: 400px;
+    }
+
+    .tittle-section{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+    .filter{
+        width: 60%;
+    }
+    .products{
+        gap: 5px;
+        width: 60%;
+    }
+    .card-product{
+        width: 32%;
+    }
+
+    .products::-webkit-scrollbar {
+        display: none;
+    }
+
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-image: url('/img/bomb-prices_principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 90%;
+    height: 200px;
+    border-radius: 30px;
+    padding: 1rem;
+    margin-left: 5px;
+}
+
+.card-info:hover{
+    transform: scale(0.99);
+    transition: 0.5s;
+}
+
+.card-title-info{
+    z-index: 1;
+    display: flex;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.card-products-v2{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 230px;
+}
+
+.card-products-v2 .card-img-product{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.section-info{
+    height: 400px;
+}
+
+.section-info .card-info{
+    height: 135px;
+    width: 135px;
+    border-radius: 10px;
+}
+
+.img9{
+    background-image: url('/img/principal.jpg');
+}
+
+.img1{
+    background-image: url('/img/secundario6.jpg');
+}
+
+.img2{
+    background-image: url('/img/secundario8.jpg');
+}
+
+.img3{
+    background-image: url('/img/secundario.jpg');
+}
+
+.img4{
+    background-image: url('/img/secundario5.jpg');
+}
+
+.img5{
+    background-image: url('/img/secundario6.jpg');
+}
+
+.img6{
+    background-image: url('/img/secundario2.jpg');
+}
+
+.img7{
+    background-image: url('/img/secundario4.jpg');
+}
+
+.img8{
+    background-image: url('/img/secundario1.jpg');
+}
+
+.img10{
+    background-image: url('/img/2carrusel.jpg');
+    height: 350px;
+}
+
+@media(min-width:1200px){
+
+    .section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .card-info2{
+        width: 270px;
+        height: 270px;
+    }
+
+    .main-section-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+    }
+
+    .img9{
+        width: 350px;
+        height: 350px;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .section-info .card-info{
+        height: 150px;
+        width: 150px;
+    }
+}
+
+
+.marcas img{
+    width: 120px;
+    background-color: white;
+    border: 1.5px solid grey;
+    padding: 0.5rem 0.7rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+

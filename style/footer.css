@@ -1,0 +1,92 @@
+.footer-top{
+    background-color: #212121;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 2rem;
+}
+
+.footer-info-logo{
+    width: 50px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-izq{
+    border-right: 1.5px solid white;
+    padding-left: 4rem;
+}
+
+.terms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1.5px solid #ededed;
+    border-bottom: 1.5px solid #ededed;
+}
+
+.terms button{
+    all: unset;
+    font-size: 1.1rem;
+    border: 1.5px solid #ededed;
+    padding: 0.5rem;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+button.btn-help{
+    background-color: #ededed;
+    color: #212121;
+}
+
+button.btn-arrepentimiento{
+    color: #ededed;
+}
+
+.link-terms{
+    font-size: 1.1rem;
+    color: #ededed;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.links-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ededed;
+    padding:2rem ;
+
+}
+
+.links-social span{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+}
+
+.social i{
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 1.5px solid #ededed;
+    padding: 5px;
+}
+
+.social i:hover{
+    background-color: #ededed;
+    color: #f0300a;
+    transition: 0.3s;
+    cursor: pointer;
+}
+

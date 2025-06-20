@@ -1,0 +1,11 @@
+*{
+    font-family: Montserrat;
+    padding: 0;
+    margin: 0;
+    box-sizing: auto;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ededed;
+}

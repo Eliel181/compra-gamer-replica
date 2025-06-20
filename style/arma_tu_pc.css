@@ -1,0 +1,108 @@
+@import url('/style/footer.css');
+@import url('/style/index.css');
+@import url('/style/ayuda.css');
+
+.main-title{
+    display: none;
+}
+
+.options-components{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options-components a{
+    border: 1.5px solid #f0300a;
+    padding: 0.5rem 6rem;
+    border-radius: 10px;
+    margin: 10px 0;
+    color: black;
+}
+
+.marcas-componentes{
+    display: flex;
+    gap: 10px;
+}
+
+.logo-marca{
+    width: 60px;
+    border: 1.5px solid black;
+    padding: 0.5rem 3rem;
+    border-radius: 10px;
+    background-color: #212121;
+    margin: 10px 0;
+}
+
+.questions{
+    border: 1.5px solid #212121;
+    width: 73%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.products{
+    flex-direction: row;
+    height: auto;
+}
+
+.png-logs{
+    display: none;
+}
+
+@media(min-width:1200px){
+
+
+
+    .main-title{
+        display: flex;
+        width: 90%;
+
+    }
+    .questions{
+        display: none;
+    }
+
+    .options-components a{
+        display: none;
+    }
+
+    .cont-components{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .png-logs{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 10px;
+        border: 1.5px solid #212121;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        width: 200px;
+        flex-wrap: wrap;
+    }
+
+    .png-logs img{
+        padding: 2rem;
+        width: 40px;
+    }
+
+    .desktop-components{
+        width: 80%;
+    }
+
+    .options-components{
+        width: 500px;
+    }
+    .products{
+        width: 100%;
+    }
+}
