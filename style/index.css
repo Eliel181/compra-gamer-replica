@@ -178,7 +178,7 @@
 }
 
 .build-pc{
-    background-image: url('/img/baner-fondo2.webp');
+    background-image: url('img/baner-fondo2.webp');
     background-color: rgba(0, 0, 0, 0.5);
     background-position: center;
     background-blend-mode: darken;
