@@ -178,7 +178,7 @@
 }
 
 .build-pc{
-    background-image: url('img/baner-fondo2.webp');
+    background-image: url('../img/baner-fondo2.webp');
     background-color: rgba(0, 0, 0, 0.5);
     background-position: center;
     background-blend-mode: darken;
@@ -262,7 +262,7 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    background-image: url('/img/bomb-prices_principal.jpg');
+    background-image: url('../img/bomb-prices_principal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -311,43 +311,43 @@
 }
 
 .img9{
-    background-image: url('img/principal.jpg');
+    background-image: url('../img/principal.jpg');
 }
 
 .img1{
-    background-image: url('img/secundario6.jpg');
+    background-image: url('../img/secundario6.jpg');
 }
 
 .img2{
-    background-image: url('img/secundario8.jpg');
+    background-image: url('../img/secundario8.jpg');
 }
 
 .img3{
-    background-image: url('img/secundario.jpg');
+    background-image: url('../img/secundario.jpg');
 }
 
 .img4{
-    background-image: url('img/secundario5.jpg');
+    background-image: url('../img/secundario5.jpg');
 }
 
 .img5{
-    background-image: url('img/secundario6.jpg');
+    background-image: url('../img/secundario6.jpg');
 }
 
 .img6{
-    background-image: url('img/secundario2.jpg');
+    background-image: url('../img/secundario2.jpg');
 }
 
 .img7{
-    background-image: url('img/secundario4.jpg');
+    background-image: url('../img/secundario4.jpg');
 }
 
 .img8{
-    background-image: url('img/secundario1.jpg');
+    background-image: url('../img/secundario1.jpg');
 }
 
 .img10{
-    background-image: url('img/2carrusel.jpg');
+    background-image: url('../img/2carrusel.jpg');
     height: 350px;
 }
 
